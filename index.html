@@ -3,73 +3,18 @@
     <meta name="description" content="The homepage of Franciscan University's Computer Science Club!">
     <meta name="prayer" content="Hail Mary, full of grace, the Lord is with thee. Blessed art thou amongst women, and blessed is the Fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.">
     <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-
-<style>
-    p {text-align: center;}
-</style>
-
-<p><a href="https://franciscan.edu/"><img src="https://franciscan.edu/wp-content/uploads/2019/10/FUS-web-logotype-w-tag-400x75.png"></a></p>
-
-<p>Welcome to Franciscan's University's Computer Science Club website!</p>
-<p>This is still an unofficial repository, as we are looking into how we want to host the website.</p>
-<p>Feel free to contribute to our site in <a href="https://github.com/Franciscan-CS-Club/Franciscan-CS-Club.github.io/">our git repo</a>!</p>
-
-<p><a href="contributors.html">Click here</a> to see the page we're working on for the git tutorial!</p>
-
-
 <video autoplay muted loop id="myVideo">
-  <source src="https://ak.picdn.net/shutterstock/videos/18458452/preview/stock-footage-random-cuneiform-characters-falling-down-code-rain-a-popular-sci-fi-movie-effect-a-symbol-of.webm" type="video/webm">
+  <source src="Matrix Digital Rain.mp4" type="video/mp4">
 </video>
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-}
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
-</style>
 </head>
 <body>
 
@@ -79,27 +24,13 @@ body {
 </video>
 
 <div class="content">
-  <h1>Franciscan Computer Sceince Club!</h1>
+  <h1><a href="https://franciscan.edu/"><img src="https://franciscan.edu/wp-content/uploads/2019/10/FUS_digital-use_hor_C-e1570472931678.png"></a></h1>
+  <h1>Franciscan Computer Science Club!</h1>
   <p>Welcome to Franciscan's University's Computer Science Club website!</p>
   <p>This is still an unofficial repository, as we are looking into how we want to host the website.</p>
   <p>Feel free to contribute to our site in <a href="https://github.com/Franciscan-CS-Club/Franciscan-CS-Club.github.io/">our git repo</a>!</p>
   <p><a href="contributors.html">Click here</a> to see the page we're working on for the git tutorial!</p>
 </div>
-
-<script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-</script>
 
 </body>
 </html>
