@@ -1,36 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,300;0,400;0,600;1,400&display=swap");
 
 /*Set default paragraph styles*/
 body {
-    font-family: 'Raleway', 'Calibri', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-}
-  
-p{
-    color: #000000;
-    text-indent: 15pt;
+  font-family: "Raleway", "Calibri", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  background-color: #ffffff;
 }
 
-@media screen and (max-width: 750px)
-{
-    body
-    {
-        font-size: 1.5em;
-    }
+p {
+  color: #000000;
+  text-indent: 15pt;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    font-size: 1.5em;
+  }
 }
 
 /*Set styles for headings*/
-h1, h2, h3, h4, h5, h6
-{
-    font-family: 'Open Sans', 'Calibri', sans-serif;
-    font-weight: 300;
-    color: green;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", "Calibri", sans-serif;
+  font-weight: 300;
+  color: green;
 }
 
 /*Center images*/
-.center
-{
-    text-align: center;
-    margin: auto;
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #c5b358;
+  width: 100%;
+  padding: 20px;
 }
